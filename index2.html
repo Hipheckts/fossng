@@ -30,10 +30,16 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- User style -->
     <link rel="stylesheet" href="css/custom.css">
+    <!-- UIkit style -->
+    <link rel="stylesheet" href="css/uikit.css">
+
 
 
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- UIkit JS -->
+    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script type="text/javascript" src="js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -229,11 +235,50 @@
             <!-- End Cart Panel -->
         </div>
         <!-- End Offset Wrapper -->
-
-        <!-- Start Prize Good Area -->
         <section class="htc__good__sale bg__cat--3">
+            <div class="uk-visible-toggle uk-light" tabindex="-1">
+                <ul class="data-uk-slideshow-items">
+                    <li>
+                        <img src="./images/banner/big-img/Slide3.png" alt="" class="uk-cover animated JumpIn">
+                        <div class="uk-position-center-left uk-position-small uk-text-left" style="margin-left:100px">
+                            <h2 uk-slideshow-parallax="x: 100,-100" style="letter-spacing:3px;" class="animated bounceInDown flipInY">THE BEAUTY OF A<br> WOMAN LIES IN <br> OUR SALON ;)</h2>
+                            <p uk-slideshow-parallax="x: 200,-200" class="animated bounceInLeft">Lorem ipsum dolor sit amet.</p>
+                            <a class="uk-button uk-button-primary animated rubberBand" style="margin-top: 0px; margin-right: 30px;" uk-toggle="target: #modal-example">Read More</a>
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <img src="./images/banner/big-img/Slide3.jpg" alt="" class="uk-cover animated fadeIn">
+                        <div class="uk-position-center-left uk-position-small uk-text-left" style="margin-left:100px">
+                            <h2 uk-slideshow-parallax="x: 100,-100" style="letter-spacing:3px;" class="animated bounceInDown">WHERE MEN<br> ARE TREATED AS <br> KINGS ;)</h2>
+                            <p uk-slideshow-parallax="x: 200,-200" class="animated bounceInLeft">Lorem ipsum dolor sit amet.</p>
+                            <a class="uk-button uk-button-primary animated bounceInUp" style="margin-top: 0px; margin-right: 30px;" uk-toggle="target: #modal-example">Read More</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/banner/big-img/Slide3.jpg" alt="" class="uk-cover animated fadeIn">
+                        <div class="uk-position-center-left uk-position-small uk-text-left" style="margin-left:100px">
+                            <h2 uk-slideshow-parallax="x: 100,-100" style="letter-spacing:3px;" class="animated bounceInRight">THE BEAUTY OF A<br> WOMAN LIES IN <br> OUR SALON ;)</h2>
+                            <p uk-slideshow-parallax="x: 200,-200" class="animated bounceInLeft">Lorem ipsum dolor sit amet.</p>
+                            <a class="uk-button uk-button-primary animated bounceInRight" style="margin-top: 0px; margin-right: 30px;" uk-toggle="target: #modal-example">Read More</a>
+                        </div>
+                    </li> -->
+                </ul>
+
+                <ul class="uk-position-center-left uk-position-small uk-slideshow-nav uk-dotnav uk-dotnav-vertical uk-visible@s" style="margin-top:-150px;"></ul>
+            </div>
+        </section>
+        
+        <!-- Start Prize Good Area -->
+         <!-- <section class="htc__good__sale bg__cat--3">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                        <div class="fr__prize__inner">
+                            <h2>NEW COLLECTIONS</h2>
+                            <h3>5 Pcs Table Bottle</h3>
+                            <a class="fr__btn" href="#">See More</a>
+                        </div>
+                    </div>
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                         <div class="prize__inner">
                             <div class="prize__thumb">
@@ -246,19 +291,36 @@
                                         <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
                                     </div>
                                 </div>
+                                <div class="pointer__tooltip pointer--4 align-top">
+                                    <div class="tooltip__box">
+                                        <h4>Tooltip Top</h4>
+                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
+                                    </div>
+                                </div>
+                                <div class="pointer__tooltip pointer--5 align-bottom">
+                                    <div class="tooltip__box">
+                                        <h4>Tooltip Bottom</h4>
+                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
+                                    </div>
+                                </div>
+                                <div class="pointer__tooltip pointer--6 align-top">
+                                    <div class="tooltip__box">
+                                        <h4>Tooltip Bottom</h4>
+                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
+                                    </div>
+                                </div>
+                                <div class="pointer__tooltip pointer--7 align-top">
+                                    <div class="tooltip__box">
+                                        <h4>Tooltip Bottom</h4>
+                                        <p>Lorem ipsum pisaci volupt atem accusa saes ntisdumtiu loperm asaerks.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                        <div class="fr__prize__inner animated bounceInDown slideIn">
-                            <h2>NEW COLLECTIONS</h2>
-                            <h3>5 Pcs Table Bottle</h3>
-                            <a class="fr__btn" href="#">See More</a>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </section>
+            </div> 
+        </section>-->
         <!-- End Prize Good Area -->
 
         <!-- Start Category Area -->
